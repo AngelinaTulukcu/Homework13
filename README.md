@@ -20,13 +20,16 @@ Password Recovery:
 
 Check for the presence and functionality of the password recovery feature.
 Verify the receipt of an email with instructions for password recovery.
-## Web Elements List for Functional Testing
-|No|	| Web Element | |	Xpath |
-1	Username Input Field	//input[@name="username"]
-2	Password Input Field	//input[@name="password"]
-3	Login Button	//button[@type="submit"]
-4	Error Message Display	//div[@class="error-message"]
-5	Password Recovery Link	//a[@href="/forgot-password"]
+
+### Web Elements List for Functional Testing
+
+| No | Web Element Description   | Xpath                        |
+|----|---------------------------|------------------------------|
+| 1  | Username Input Field      | //input[@name="username"]    |
+| 2  | Password Input Field      | //input[@name="password"]    |
+| 3  | Login Button              | //button[@type="submit"]     |
+| 4  | Error Message Display     | //div[@class="error-message"]|
+| 5  | Password Recovery Link    | //a[@href="/forgot-password"]|
 
 
 
