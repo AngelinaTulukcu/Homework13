@@ -17,20 +17,42 @@
 4. Logout Functionality:
    - 1. Test the correct logout process and redirection to the login page.
 
-5. Password Recovery:
-   - 1. Check for the presence and functionality of the password recovery feature.
-   - 2. Verify the receipt of an email with instructions for password recovery.
-
-### Web Elements List for Functional Testing
+### Table 1: Web Elements for Authentication Form
 
 | No | Web Element Description   | Xpath                        |
 |----|---------------------------|------------------------------|
 | 1  | Username Input Field      | //input[@name="username"]    |
 | 2  | Password Input Field      | //input[@name="password"]    |
 | 3  | Login Button              | //button[@type="submit"]     |
-| 4  | Error Message Display     | //div[@class="error-message"]|
-| 5  | Password Recovery Link    | //a[@href="/forgot-password"]|
+| 4  | Error Message Display     | //div[@class="error-message"]|     
 
+
+### Table 2: XPaths for Table Elements
+
+| No   | Description                                    | Xpath                                              |
+|------|-----------------------------------------------|----------------------------------------------------|
+| 4.1  | Select all `<td>` elements containing names (Name)       | `//td[@class='td3']`                                |
+| 4.2  | Select all `<tr>` elements with "data-qa" starting "amount-" | `//tr[starts-with(@data-qa, 'amount-')]`           |
+| 4.3  | Select all `<tr>` elements containing `<td>` with "John Doe" | `//tr[.//td[contains(., 'John Doe')]]`             |
+
+
+### XPath Table - Usage for Element Selection
+
+For automating tests and verifying specific elements in the HTML document, the following XPaths have been identified:
+
+#### 4.1 - Select all <td> elements containing names (Name)
+
+XPath: `//td[@class='td3']`
+
+
+#### 4.2 - Select all <tr> elements with "data-qa" starting "amount-"
+
+XPath: `//tr[starts-with(@data-qa, 'amount-')]`
+
+
+#### 4.3 - Select all <tr> elements containing <td> with "John Doe"
+
+XPath: `//tr[.//td[contains(., 'John Doe')]]`
 
 
 # Homework10
