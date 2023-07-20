@@ -1,25 +1,25 @@
 # Checklist for Functional UI Testing - Tallinn Delivery App (Login)
 ## Homework17
-Form Validation:
 
-Verify that all input fields (username and password) are present and displayed correctly.
-Check the presence and functionality of the "Login" button when entering data.
-Incorrect Data Validation:
+1. Form Validation:
+   - 1. Verify that all input fields (username and password) are present and displayed correctly.
+   - 2. Check the presence and functionality of the "Login" button when entering data.
 
-Validate error messages for attempting login without filling in the required fields.
-Verify error messages for entering invalid login credentials.
-Check for error messages when using unauthorized characters.
-Login Functionality:
+2. Incorrect Data Validation:
+   - 1. Validate error messages for attempting login without filling in the required fields.
+   - 2. Verify error messages for entering invalid login credentials.
+   - 3. Check for error messages when using unauthorized characters.
 
-Test successful login with valid credentials.
-Verify that the user is redirected to the correct page after login.
-Logout Functionality:
+3. Login Functionality:
+   - 1. Test successful login with valid credentials.
+   - 2. Verify that the user is redirected to the correct page after login.
 
-Test the correct logout process and redirection to the login page.
-Password Recovery:
+4. Logout Functionality:
+   - 1. Test the correct logout process and redirection to the login page.
 
-Check for the presence and functionality of the password recovery feature.
-Verify the receipt of an email with instructions for password recovery.
+5. Password Recovery:
+   - 1. Check for the presence and functionality of the password recovery feature.
+   - 2. Verify the receipt of an email with instructions for password recovery.
 
 ### Web Elements List for Functional Testing
 
