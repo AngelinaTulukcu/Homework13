@@ -21,8 +21,8 @@
 
 | No | Web Element Description   | Xpath                        |
 |----|---------------------------|------------------------------|
-| 1  | Username Input Field      | //input[@name="username"]    |
-| 2  | Password Input Field      | //input[@name="password"]    |
+| 1  | Username Input Field      | //input[@data-name="username"]    |
+| 2  | Password Input Field      | //input[@data-name="password"]    |
 | 3  | Login Button              | //button[@type="submit"]     |
 | 4  | Error Message Display     | //div[@class="error-message"]|     
 
