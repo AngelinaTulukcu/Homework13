@@ -23,8 +23,8 @@
 |----|---------------------------|------------------------------|
 | 1  | Username Input Field      | //input[@data-name="username"]    |
 | 2  | Password Input Field      | //input[@data-name="password"]    |
-| 3  | Login Button              | //button[@type="submit"]     |
-| 4  | Error Message Display     | //div[@class="error-message"]|     
+| 3  | Login Button              |//input[@data-name='signIn-button']    |
+| 4  | Error Message Display     | //div[@data-name="error-password"]|     
 
 
 ### Table 2: XPaths for Table Elements
